@@ -1,0 +1,28 @@
+{
+    "editor.fontSize": 17, // font size
+    "editor.fontFamily": "FantasqueSansMono Nerd Font, Consolas, 'Courier New', monospace", //font family
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true //organize import on save
+    },
+    "editor.formatOnSave": true, // format file on save
+    "editor.cursorBlinking": "phase", //cursor appearance
+    "editor.cursorSmoothCaretAnimation": true, //cursor appearance
+    "editor.smoothScrolling": true, //cursor appearance
+    "editor.linkedEditing": true, //linked editing enabled
+    "workbench.iconTheme": "vscode-icons", //vscode icon theme
+    "window.title": "${dirty}${activeEditorShort}${separator}${rootName}${separator}${folderPath}", //window title bar
+    "window.titleSeparator": " --- ", //title separator
+    "terminal.integrated.smoothScrolling": true, //smooth scrolling
+    "workbench.layoutControl.enabled": false, //hides layout control buttons
+    "window.menuBarVisibility": "toggle", //menu bar visibility
+    "liveServer.settings.donotShowInfoMsg": true, //hides live server notifications
+    "workbench.colorTheme": "Andromeda",
+}
+//* Installed extensions //
+// aaron-bond.better-comments
+// donjayamanne.githistory
+// EliverLara.andromeda
+// mcagampan.dark-horizon
+// ritwickdey.LiveServer
+// streetsidesoftware.code-spell-checker
+// vscode-icons-team.vscode-icons
