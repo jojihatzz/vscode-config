@@ -16,7 +16,8 @@
     "workbench.layoutControl.enabled": false, //hides layout control buttons
     "window.menuBarVisibility": "toggle", //menu bar visibility
     "liveServer.settings.donotShowInfoMsg": true, //hides live server notifications
-    "workbench.colorTheme": "Andromeda",
+    "workbench.colorTheme": "Dark Horizon",
+    "editor.fontLigatures": true,
 }
 //* Installed extensions //
 // aaron-bond.better-comments
