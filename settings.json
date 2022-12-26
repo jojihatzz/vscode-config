@@ -19,11 +19,18 @@
     "workbench.colorTheme": "Dark Horizon",
     "editor.fontLigatures": true,
 }
-//* Installed extensions //
+// //* Installed extensions //
 // aaron-bond.better-comments
 // donjayamanne.githistory
-// EliverLara.andromeda
 // mcagampan.dark-horizon
+// ms-python.isort
+// ms-python.python
+// ms-python.vscode-pylance
+// oderwat.indent-rainbow
 // ritwickdey.LiveServer
 // streetsidesoftware.code-spell-checker
+// usernamehw.errorlens
+// VisualStudioExptTeam.intellicode-api-usage-examples
+// VisualStudioExptTeam.vscodeintellicode
 // vscode-icons-team.vscode-icons
+// wayou.vscode-todo-highlight
