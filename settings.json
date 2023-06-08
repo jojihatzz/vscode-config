@@ -1,43 +1,33 @@
 {
     "editor.fontSize": 17, // font size
-    "editor.fontFamily": "FantasqueSansMono Nerd Font, Consolas, 'Courier New', monospace", //font family
+    "editor.fontFamily": "FantasqueSansM Nerd Font, Consolas, 'Courier New', monospace", //font family
     "editor.codeActionsOnSave": {
         "source.organizeImports": true //organize import on save
     },
     "editor.formatOnSave": true, // format file on save
     "editor.cursorBlinking": "phase", //cursor appearance
-    "editor.cursorSmoothCaretAnimation": true, //cursor appearance
+    "editor.cursorSmoothCaretAnimation": "on", //cursor appearance
     "editor.smoothScrolling": true, //cursor appearance
     "editor.linkedEditing": true, //linked editing enabled
-    "workbench.iconTheme": "vscode-icons", //vscode icon theme
+    "workbench.iconTheme": "material-icon-theme", //vscode icon theme
     "window.title": "${dirty}${activeEditorShort}${separator}${rootName}${separator}${folderPath}", //window title bar
     "window.titleSeparator": " --- ", //title separator
-    "terminal.integrated.smoothScrolling": true, //smooth scrolling
-    "workbench.layoutControl.enabled": false, //hides layout control buttons
-    "window.menuBarVisibility": "toggle", //menu bar visibility
+    "terminal.integrated.smoothScrolling": true, //menu bar visibility
     "liveServer.settings.donotShowInfoMsg": true, //hides live server notifications
     "workbench.colorTheme": "Dark Horizon",
     "editor.fontLigatures": true,
+    "window.commandCenter": false,
+    "workbench.layoutControl.enabled": false,
+    "window.menuBarVisibility": "compact",
+    "editor.minimap.renderCharacters": false,
 }
-// //* Installed extensions //
-// aaron-bond.better-comments@3.0.2
-// cweijan.vscode-autohotkey-plus@2.7.1
-// DanielSanMedium.dscodegpt@1.0.13
-// donjayamanne.githistory@0.6.19
-// eamodio.gitlens@13.2.0
-// marp-team.marp-vscode@2.4.1
-// mcagampan.dark-horizon@0.4.2
-// ms-python.isort@2022.8.0
-// ms-python.python@2022.20.2
-// ms-python.vscode-pylance@2023.1.40
-// ms-vscode-remote.remote-wsl@0.72.0
-// ms-vsliveshare.vsliveshare@1.0.5823
-// oderwat.indent-rainbow@8.3.1
-// ritwickdey.LiveServer@5.7.9
-// streetsidesoftware.code-spell-checker@2.15.0
-// usernamehw.errorlens@3.6.0
-// VisualStudioExptTeam.intellicode-api-usage-examples@0.2.7
-// VisualStudioExptTeam.vscodeintellicode@1.2.30
-// vscode-icons-team.vscode-icons@12.2.0
-// wayou.vscode-todo-highlight@1.0.5
-// zero-plusplus.vscode-autohotkey-debug@1.11.0
+// //* Installed extensions //mads-hartmann.bash-ide-vscode
+// mcagampan.dark-horizon
+// ms-azuretools.vscode-docker
+// ms-python.python
+// ms-python.vscode-pylance
+// ms-vscode-remote.remote-containers
+// ms-vscode-remote.remote-wsl
+// ms-vsliveshare.vsliveshare
+// PKief.material-icon-theme
+// ritwickdey.LiveServer
