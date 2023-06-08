@@ -8,7 +8,7 @@ echo 4. Open github page
 echo 5. Show installed VScode extensions
 echo 6. Exit
 set /p UserInput=Select option: 
-if %UserInput%==1 code --install-extension aaron-bond.better-comments && code --install-extension donjayamanne.githistory && code --install-extension EliverLara.andromeda && code --install-extension mcagampan.dark-horizon && code --install-extension ms-python.isort && code --install-extension ms-python.python && code --install-extension ms-python.vscode-pylance && code --install-extension ritwickdey.LiveServer && code --install-extension streetsidesoftware.code-spell-checker && code --install-extension vscode-icons-team.vscode-icons
+if %UserInput%==1 code --install-extension mads-hartmann.bash-ide-vscode && code --install-extension mcagampan.dark-horizon && code --install-extension ms-azuretools.vscode-docker && code --install-extension ms-python.python && code --install-extension ms-python.vscode-pylance && code --install-extension ms-vscode-remote.remote-containers && code --install-extension ms-vscode-remote.remote-wsl && code --install-extension ms-vsliveshare.vsliveshare && code --install-extension PKief.material-icon-theme && code --install-extension ritwickdey.LiveServer
 if %UserInput%==2 start "browser" "https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user"
 if %UserInput%==4 start "browser" "https://github.com/jojihatzz/vscode-config"
 if %UserInput%==5 cls && code --list-extensions && pause
