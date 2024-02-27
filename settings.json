@@ -1,33 +1,43 @@
 {
     "editor.fontSize": 17, // font size
-    "editor.fontFamily": "FantasqueSansM Nerd Font, Consolas, 'Courier New', monospace", //font family
+    "editor.fontFamily": "Monaspace Neon, FantasqueSansM Nerd Font, Consolas, 'Courier New', monospace", //font family
     "editor.codeActionsOnSave": {
-        "source.organizeImports": true //organize import on save
-    },
-    "editor.formatOnSave": true, // format file on save
+      "source.organizeImports": "explicit"
+    }, // format file on save
     "editor.cursorBlinking": "phase", //cursor appearance
-    "editor.cursorSmoothCaretAnimation": "on", //cursor appearance
     "editor.smoothScrolling": true, //cursor appearance
     "editor.linkedEditing": true, //linked editing enabled
     "workbench.iconTheme": "material-icon-theme", //vscode icon theme
     "window.title": "${dirty}${activeEditorShort}${separator}${rootName}${separator}${folderPath}", //window title bar
     "window.titleSeparator": " --- ", //title separator
     "terminal.integrated.smoothScrolling": true, //menu bar visibility
-    "liveServer.settings.donotShowInfoMsg": true, //hides live server notifications
-    "workbench.colorTheme": "Dark Horizon",
+    "liveServer.settings.donotShowInfoMsg": true,
     "editor.fontLigatures": true,
     "window.commandCenter": false,
-    "workbench.layoutControl.enabled": false,
-    "window.menuBarVisibility": "compact",
+    "window.menuBarVisibility": "toggle",
     "editor.minimap.renderCharacters": false,
-}
-// //* Installed extensions //mads-hartmann.bash-ide-vscode
-// mcagampan.dark-horizon
-// ms-azuretools.vscode-docker
-// ms-python.python
-// ms-python.vscode-pylance
-// ms-vscode-remote.remote-containers
-// ms-vscode-remote.remote-wsl
-// ms-vsliveshare.vsliveshare
-// PKief.material-icon-theme
-// ritwickdey.LiveServer
+    "workbench.productIconTheme": "fluent-icons",
+    "errorLens.enabled": true,
+    "redhat.telemetry.enabled": false,
+    "github.copilot.enable": {
+      "*": false,
+      "plaintext": false,
+      "markdown": false,
+      "scminput": false
+    },
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.mouseWheelZoom": true,
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "workbench.list.smoothScrolling": true,
+    "vscord.app.name": "Visual Studio Code",
+    "vscord.app.privacyMode.enable": true,
+    "workbench.layoutControl.enabled": false,
+    "animations.Install-Method": "Custom CSS and JS",
+    "vscode_custom_css.imports": [
+      "file:///c:/Users/joji/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.1/dist/updateHandler.js"
+    ],
+    "cSpell.enabled": false,
+    "workbench.colorTheme": "Bearded Theme Oceanic Reversed"
+  }
